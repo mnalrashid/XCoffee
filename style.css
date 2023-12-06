@@ -1,0 +1,166 @@
+body {
+    background: seashell;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+.nev_list {
+    position: absolute;
+    top: 1vh;
+    right: 5vw;
+    display: flex;
+}
+
+.nev_list li {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 5px;
+}
+
+.pages {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+.pages_box {
+    background-color: bisque;
+    border-radius: 5px;
+    border: 1px solid;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    padding: auto;
+}
+
+.pages_box:hover,
+.table_box:hover,
+.new_order:hover {
+    box-shadow: 3px 3px darkgray;
+    cursor: pointer;
+}
+
+.pages_box h2,
+.pages_box p {
+    text-align: center;
+}
+
+.total_sale, .search {
+    border: 1px solid;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.total_sale h2,
+.search h2 {
+    position: relative;
+    left: 50%;
+    top: -15px;
+}
+
+.search h2 {
+    position: relative;
+    left: 0%;
+    top: -15px;
+}
+
+.total_sale input, .search input{
+    background-color: seashell;
+    border: none;
+    width: 150px;
+    position: relative;
+    font-size: 25px;
+    left: 60px;
+}
+.search input {
+    border: 1px solid;
+    border-radius: 3px;
+    left: 2px;
+}
+
+.table, .takeaway, .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.table h1,
+.takeaway h1, .menu h1, .new_order h1 {
+    position: absolute;
+}
+
+.table_box {
+    margin: 100px 0 -90px 10px;
+    background-color: sandybrown;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.table_box h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.table_box input {
+    background-color: sandybrown;
+    border: none;
+    width: 80px;
+    position: relative;
+    font-size: 20px;
+    left: 60px;
+}
+
+.new_order {
+    border: 1px solid;
+    height: 80px;
+    width: 200px;
+    margin-top: 100px;
+}
+.new_order h1{
+    position: relative;
+
+    text-align: center;
+}
+
+.search_submit button{
+    height: 33px;
+}
+
+.order_table {
+    margin-top: 80px;
+    font-size: 20px;
+    border: 1px solid;
+}
+.order_table th {
+    width: 250px;
+    border: 1px solid;
+}
+.order_table td {
+    text-align: center;
+    border: 1px solid;
+}
